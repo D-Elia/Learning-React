@@ -44,7 +44,7 @@ const Weather =() => {
          setTemp(temp+1);
          console.log("useEffect");}
      },[]);
-     return(<div><h2>today weather is {temp}.</h2>
+     return(<div><h2>today weather is the {temp}.</h2>
      </div>)
     
 }
